@@ -1,0 +1,19 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &__controls {
+    display: inline-grid;
+    grid-auto-flow: column;
+    column-gap: .5em;
+  }
+}
+
+h1 {
+  margin: 0;
+  font-size: 4em;
+}
